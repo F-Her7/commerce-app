@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Commerce App</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+    <script src="./public/js/app.js"></script>
+  </head>
+
+<style>
+#header{
+    background-image: linear-gradient(to right, #1536b8, #80ca63)!important;
+}
+</style>
+
+<body>
+
+<section class="h-full" id="header">
+      <div class="h-24 flex justify-between">
+              <nav class="flex items-center justify-between flex-wrap fixed w-full z-10" id="nav">
+                  <a href="index.html">
+                      <img alt="Logo" src="resources/images/logo.svg">
+                  </a>
+                  <div class="flex items-center flex-shrink-0 text-white mr-6">
+                  </div>
+          
+                  <div class="block lg:hidden">
+                      <button id="nav-toggle" class="mr-4 mt-4 h-12 w-12">
+                        <img src="resources/images/menu.png" alt="">
+                      </button>
+                  </div>
+          
+                  <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
+                      <ul class="list-reset lg:flex justify-end flex-1">
+                          <li class="mr-3">
+                              <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Home</a>
+                          </li>
+                          <li class="mr-3">
+                              <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Comercio</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+      </div>
+</section>
+
+<section class="h-full bg-gray-300">
+    <div class="text-center">
+        <h1 class="font-bold text-4xl font-sans py-8">Contáctanos</h1>
+    </div>
+
+    <div class="xl:ml-20 pb-12">
+            <form class="xl:ml-48 xl:w-4/6 py-20 px-20  bg-white">
+                <div class="flex flex-wrap items-center">
+                     <div class="w-full md:w-1/2 px-3">
+                        <label class="block tracking-wide text-indigo-700 text-base font-bold mb-2">
+                          Nombre
+                        </label>
+                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Nombre">
+                      </div>
+                      <div class="w-full md:w-1/2 px-3">
+                        <label class="block tracking-wide text-indigo-700 text-base font-bold mb-2">
+                          Mensaje
+                        </label>
+                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Escribe tu mensaje">
+                      </div>
+                      <div class="w-full md:w-1/2 px-3">
+                        <label class="block tracking-wide text-indigo-700 text-base font-bold mb-2">
+                          Email
+                        </label>
+                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="example@gmail.com">
+                      </div>
+                      <div>
+                        <button class="rounded h-10 w-48 bg-green-300 text-white mt-16 ml-4" id="btn-form">Enviar mensaje</button>
+                      </div>
+                      
+                </div>
+            </form>        
+    </div>
+</section>
+
+<footer class="flex p-2 bg-black justify-around flex-wrap">
+    <div class="flex justify-around flex-wrap">
+        <img src="resources/images/logo.svg" class="h-12 logo-white transparent ">
+    </div>
+
+    <div class="flex items-center">
+            <img src="resources/images/facebook.png" alt="">
+            <img src="resources/images/instagram.png" alt="" class="mx-8">
+            <img src="resources/images/twitter.png" alt="">
+    </div>
+    
+
+</footer>
+
+</body>
+</html>
