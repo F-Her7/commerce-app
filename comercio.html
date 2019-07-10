@@ -11,13 +11,29 @@
 
 <style>
 #header{
-    background-image: linear-gradient(to right, #1536b8, #80ca63)!important;
+    background: linear-gradient(270deg, #8BDA5A -10.32%, #1435B9 100%);
+    opacity: 0.85;
 }
+#nav{
+    background-image: linear-gradient(90deg, #031FC6 0%, #8BDA5A 101.79%);
+}
+#segunda{
+    background-color: #1D42B1;
+}
+#btn{
+    background-color: #88D65C;    
+}
+#btn-form{
+    background-color: #1D42B1; 
+}
+#items:hover{
+    border-top: solid white;
+  }
 </style>
 
 <body>
 
-<section class="h-full" id="header">
+<section class="h-12">
       <div class="h-24 flex justify-between">
               <nav class="flex items-center justify-between flex-wrap fixed w-full z-10" id="nav">
                   <a href="index.html">
@@ -35,7 +51,7 @@
                   <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
                       <ul class="list-reset lg:flex justify-end flex-1">
                           <li class="mr-3">
-                              <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Home</a>
+                              <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="index.html" id="items">Home</a>
                           </li>
                           <li class="mr-3">
                               <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Comercio</a>
@@ -45,6 +61,218 @@
               </nav>
       </div>
 </section>
+
+<section class="flex xl:h-screen bg-no-repeat bg-cover" style="background-image: url(resources/images/banner.png)">
+  <div class="z-0 w-full h-full flex h-screen items-center justify-center" id="header">
+    <div class="z-50">
+        <div class="items-center text-center">
+            <h1 class="text-white font-bold text-6xl">Mejora tus <br>servicios con nosotros</h1>
+            <p class="text-white text-base">¡La primera aplicación movil que te permite generar reservas en <br>
+               restaurantes, doctores, estilo de vida y más en un solo lugar!</p>
+        </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="h-full bg-gray-100">
+    <div class="xl:flex py-32 justify-between xl:mt-0">
+            <div class="xl:flex">
+                    <img src="resources/images/img-5.png" alt="" class="xl:mb-0 mb-8 xl:flex hidden">
+            </div>
+
+            <div class="xl:mt-8 xl:pr-24 xl:ml-0 ml-4">
+                    <p class="text-5xl font-bold font-sans text-indigo-700">Beneficios de Negocio</p>
+
+                    <div>
+                        <p class="text-gray-700 text-base font-bold">Date a conocer</p>
+                        <p class="text-gray-600 text-base">Nuestra aplicación es una plataforma para automotizar y <br> 
+                          crecer tu empresa sin necesidad de perder el toque <br>
+                          humano que siempre es necesario.
+                        </p>
+                    </div>
+                    <div class="pt-4">
+                        <p class="text-gray-700 text-base font-bold">Controla tus tiempos</p>
+                        <p class="text-gray-600 text-base">Sé más eficiente. Controla los tiempos efectivos para cada <br> 
+                          servicio ofrecido con el objetivo de eliminar tiempos <br>
+                          muertos, mejorando tu capacidad y por ende tus ingresos.
+                        </p>
+                    </div>
+                    <div class="pt-4">
+                        <p class="text-gray-700 text-base font-bold">Crecemos contigo</p>
+                        <p class="text-gray-600 text-base">Nuestros planes de pago se han realizado pensando en ti y <br> 
+                          en el bienestar de tu empresa, acomodándose a tus <br>
+                          requerimientos e ingresos.
+                        </p>
+                    </div>
+                    <div class="pt-4">
+                        <p class="text-gray-700 text-base font-bold">Mejora Continua</p>
+                        <p class="text-gray-600 text-base">Nuestro equipo ya cuenta con mejoras por venir, <br> 
+                          incluyendo la capacidad de captar pagos de tus clientes <br>
+                          por medio de la app, manejo de contabilidad, etc.
+                        </p>
+                    </div>
+            </div>
+</section>
+
+<section class="h-full bg-white">
+    <div class="xl:flex xl:ml-4 justify-between xl:mt-0 my-4">
+            <div class="xl:mt-8 xl:ml-0 ml-4 xl:ml-32 xl:mt-40 text-center xl:text-left">
+                    <p class="text-3xl font-bold font-sans text-gray-800 xl:pt-40 pt-0">Reduce la posibilidad de <br>
+                    que tu cita sea cancelada o <br>
+                    que tu cliente no se presente</p>
+                    <p class="text-gray-600 pt-4 xl:mb-0 mb-8">A través de una comunicación automática entre tu <br>
+                       establecimiento y tu cliente, se reducen las  <br>
+                       probabilidades de "no-shows", proporcionando un <br>
+                       seguimiento a cada cita programada, sin la <br>
+                       necesidad de que tu o cualqueira de tus empleados <br>
+                       pierda el tiempo tratando de ponerse en contacto <br>
+                       con cada uno de los clientes. </p>
+            </div>
+
+            <div class="w-full lg:w-1/2 flex items-end flex-col">
+                <img src="resources/images/img-6.png" alt="" class="xl:mb-0 mb-8">
+                <img src="resources/images/img-7.png" alt="" class="xl:mb-0 xl:flex hidden">
+            </div>         
+    </div>
+</section>
+
+<section class="flex h-full items-center justify-center" id="segunda">
+    <div class="xl:flex xl:ml-4 my-32">
+        <div class="xl:mt-0 xl:ml-32 ml-4">
+            <h1 class="text-white font-bold text-5xl  xl:text-5xl xl:text-left text-center xl:mt-32">Reportería al <br>instante</h1>
+            <p class="text-white text-base mt-8 mb-4 xl:text-left text-center">Al contratar nuestro paquete Premium tienes la  <br>
+              oportunidad de tener toda la repostería necesaria <br>
+              para e manejo adecuado y acertado de tu negocio. <br>
+              Desde reporte de ventas generales hasta reportes de ventas <br>
+              específicos de cada empleador, consumidor <br>
+              servicio, producto, etc. Obtendrás insight sobre cada <br>
+              uno de tus clientes actuales y potenciales.</p>
+        </div>
+
+        <div class="xl:flex">
+          <img src="resources/images/img-8.png" alt="" class="ml-12 mt-12 xl:mt-0 xl:ml-32 xl:pl-4">
+        </div>
+
+    </div>
+</section>
+
+<section class="h-full">
+    <div class="items-center text-center">
+      <p class="text-gray-800 font-bold text-4xl font-sans pt-12">¡Únete a nuestros comercios!</p>
+      <p>Guía general de uso de la aplicación y preguntas frecuentes</p>
+    </div>
+
+    <div class="xl:flex xl:pl-48 pl-32">
+      <img src="resources/images/emp-1.png" alt="">
+      <img src="resources/images/emp-2.png" alt="">
+      <img src="resources/images/emp-3.png" alt="">
+      <img src="resources/images/emp-4.png" alt="">
+      <img src="resources/images/emp-5.png" alt="">
+    </div>
+
+    <div class="xl:flex xl:pl-48 pl-32 py-8">
+        <img src="resources/images/emp-6.png" alt="">
+        <img src="resources/images/emp-7.png" alt="">
+        <img src="resources/images/emp-8.png" alt="">
+        <img src="resources/images/emp-9.png" alt="">
+        <img src="resources/images/emp-10.png" alt="">
+      </div>
+
+      <div class="xl:flex xl:pl-48 pl-32">
+          <img src="resources/images/emp-1.png" alt="">
+          <img src="resources/images/emp-2.png" alt="">
+          <img src="resources/images/emp-3.png" alt="">
+          <img src="resources/images/emp-4.png" alt="">
+          <img src="resources/images/emp-5.png" alt="">
+      </div>
+
+      <div class="flex items-center text-center xl:ml-128 ml-32">
+          <button class="rounded h-10 w-48 bg-green-300 text-white xl:ml-32 mt-16 mb-12" id="btn">Únete a nosotros</button>
+      </div>
+  
+  </section>
+
+  <section class="flex h-full items-center justify-center bg-blue-900">
+      <div class="xl:flex xl:ml-4 my-32">
+          <div class="max-w-lg flex justify-center flex-col px-6">
+              <h3 class="text-4xl lg:text-4.5xl font-extrabold mb-5 text-white leading-none">Planes de Servicio</h3>
+              <p class="text-white font-medium">Sé parte de nuestros socios estratégicos. Únete a TapApp para llegar a más clientes y aumentar tus ventas.</p>
+            </div>
+  
+          <div class="xl:flex flex xl:ml-0 ml-6 xl:mt-0 mt-4">
+              <div class=" flex flex-col xl:flex-row">
+                <div class="">
+                  <div class="bg-gradient h-6 w-full -mb-2 rounded-t-lg" id="nav"></div>
+                  <div class="w-full h-full bg-white rounded-b-md px-6 py-6">
+                    <div class="h-full">
+                      <h1 class="uppercase text-gray-600 font-extrabold text-2xl text-center border-b-2 pb-4">Plan Básico</h1>
+                      <p class="font-bold text-center pt-6">Beneficios</p>
+                      <li class="py-2 text-gray-700">Uso ilimitado de nuestra aplicación movil</li>
+                      <li class="py-2 text-gray-700">Número de reservas: ilimitadas</li>
+                      <li class="py-2 text-gray-700">Recordatorio de reservas de tus clientes</li>
+                      <li class="py-2 text-gray-700">Calificaciones para tus clientes</li>
+                      <li class="py-2 text-gray-700">Acceso propio a tu web service dónde podrás:</li>
+                      <div class="pl-4">
+                        <li class="py-2 text-gray-700">Manejar tus reservas</li>
+                        <li class="py-2 text-gray-700">Agregar reservas</li>
+                        <li class="py-2 text-gray-700">Guardar información sobre tus clientes</li>
+                        <li class="py-2 text-gray-700">Modificar horarios de trabajo</li>
+                        <li class="py-2 text-gray-700">Soporte y ayuda</li>
+        
+                      </div>
+        
+                    </div>
+        
+                    <div class="flex justify-center">
+                      <a href=""><button class="p-4 px-6 rounded text-white font-semibold bg-blue-500 hover:bg-blue-600">Elegir plan</button></a>
+        
+                    </div>
+        
+                  </div>
+        
+                </div>
+        
+              </div>
+          </div>
+
+          <div class="xl:flex flex xl:ml-0 ml-6 xl:mt-0 mt-20 xl:ml-32 ml-0 xl:mr-20 ml-0">
+              <div class=" flex flex-col xl:flex-row">
+                <div class="">
+                  <div class="bg-gradient h-6 w-full -mb-2 rounded-t-lg" id="nav"></div>
+                  <div class="w-full h-full bg-white rounded-b-md px-6 py-6">
+                    <div class="h-full">
+                      <h1 class="uppercase text-gray-600 font-extrabold text-2xl text-center border-b-2 pb-4">Plan Premium</h1>
+                      <p class="text-center font-bold pt-6">Beneficios</p>
+                      <li class="py-2 text-gray-700">El plan Premium incluye todo lo que el <br> plan básico <strong>más:</strong></li>
+                      <li class="py-2 text-gray-700">Todo tipo de reportería:</li>
+                      <div class="pl-4">
+                        <li class="py-2 text-gray-700">Ventas</li>
+                        <li class="py-2 text-gray-700">Reservas</li>
+                        <li class="py-2 text-gray-700">Clientes</li>
+                        <li class="py-2 text-gray-700">Equipo</li>
+                        <li class="py-2 text-gray-700">Tus promociones</li>
+                      </div>
+                      <li class="py-2 text-gray-700">Podrás observar opiniones y críticas de <br> tus clientes.</li>
+                      <li class="py-2 text-gray-700">Podrás tener hasta 4 promociones activas al mes</li>
+        
+                    </div>
+        
+                    <div class="flex justify-center">
+                      <a href=""><button class="p-4 px-6 rounded text-white font-semibold bg-blue-500 hover:bg-blue-600">Elegir plan</button></a>
+        
+                    </div>
+        
+                  </div>
+        
+                </div>
+        
+              </div>
+          </div>
+  
+      </div>
+  </section>
 
 <section class="h-full bg-gray-300">
     <div class="text-center">
