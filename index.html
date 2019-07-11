@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Commerce App</title>
     <link rel="stylesheet" href="./public/css/app.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    
     <script src="./public/js/app.js"></script>
   </head>
 
@@ -50,8 +56,8 @@
                       </button>
                   </div>
           
-                  <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
-                      <ul class="list-reset lg:flex justify-end flex-1">
+                  <div class="w-full flex-grow lg:flex lg:w-auto hidden pt-10 lg:pt-0" id="nav-content">
+                      <ul class="list-reset lg:flex justify-end flex-1 xl:h-auto h-screen">
                           <li class="mr-3">
                               <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Home</a>
                           </li>
@@ -64,8 +70,8 @@
       </div>
 
       <div class="xl:flex xl:ml-4">
-          <div class="xl:mt-8 xl:ml-0 ml-4 order-first xl:order-2">
-              <h1 class="text-white font-bold text-5xl  xl:text-6xl mt-8 xl:text-left text-center">CommerceApp <br>te ayuda a manejar <br>tus reservas</h1>
+          <div class="xl:mt-8 xl:ml-0 ml-4 order-last xl:order-2 xl:text-left text-center"> 
+              <h1 class="text-white font-bold text-5xl xl:text-6xl mt-8 xl:text-left">CommerceApp <br>te ayuda a manejar <br>tus reservas</h1>
               <p class="text-white text-2xl mt-8 mb-4 xl:text-left text-center">¡La primera aplicación móvil que te permite generar resevas en <br>restaurantes, doctores, estilo de vida y más en un solo lugar!</p>
               
               <div class="flex xl:mb-0 mb-8 xl:ml-0 ml-12">
@@ -74,7 +80,7 @@
               </div>
           </div>
 
-          <div class="xl:flex order-last xl:order-first">
+          <div class="xl:flex order-first xl:order-first">
             <img src="resources/images/img-1.png" alt="" class="">
           </div>
 
@@ -82,10 +88,10 @@
 </section>
 
 <section class="flex h-full items-center justify-center" id="segunda">
-    <div class="xl:flex xl:ml-4 my-32">
+    <div class="xl:flex xl:ml-4 my-32 text-center">
         <div class="xl:mt-8 xl:ml-0 ml-4">
-            <h1 class="text-white font-bold text-5xl  xl:text-5xl xl:text-left text-center xl:mt-32">Reserva desde <br>Cualquier lugar</h1>
-            <p class="text-white text-base mt-8 mb-4 xl:text-left text-center">Estés donde estés, a la hora que sea, tu puedes crear tu <br>
+            <h1 class="text-white font-bold text-5xl  xl:text-5xl xl:text-left xl:mt-32">Reserva desde <br>Cualquier lugar</h1>
+            <p class="text-white text-base mt-8 mb-4 xl:text-left ">Estés donde estés, a la hora que sea, tu puedes crear tu <br>
               reserva en cualqueira de los negocios afiliados a Tap the <br>
               App. Solamente selecciona tu establecimiento de <br>
               preferencia, el día y la hora que deseas reservar y ¡listo!</p>
@@ -99,10 +105,10 @@
 </section>
 
 <section class="flex h-full items-center justify-center" id="tercera">
-    <div class="xl:flex xl:ml-4 my-32">
+    <div class="xl:flex xl:ml-4 my-32 text-center">
         <div class="xl:mt-8 xl:ml-0 ml-4">
-            <h1 class="text-indigo-600 font-bold text-5xl  xl:text-5xl xl:text-left text-center xl:mt-32">Encuentra las mejores <br>promociones</h1>
-            <p class="text-white text-base mt-8 mb-4 xl:text-left text-center">Dales tap! y ahorra lo más que puedas. Selecciona la <br>
+            <h1 class="text-indigo-600 font-bold text-5xl  xl:text-5xl xl:text-left xl:mt-32">Encuentra las mejores <br>promociones</h1>
+            <p class="text-white text-base mt-8 mb-4 xl:text-left">Dales tap! y ahorra lo más que puedas. Selecciona la <br>
               promoción que quieras, dale ¡Click! al botón de  <br>
               "obtener promoción", muéstrala en el establecimiento <br>
               indicando economiza tus gastos</p>
@@ -116,10 +122,10 @@
 </section>
 
 <section class="flex h-full items-center justify-center" id="segunda">
-    <div class="xl:flex xl:ml-4 my-32">
+    <div class="xl:flex xl:ml-4 my-32 text-center">
         <div class="xl:mt-8 xl:ml-0 ml-4">
-            <h1 class="text-white font-bold text-5xl  xl:text-5xl xl:text-left text-center xl:mt-32">No vuelvas a <br>Perder tus citas</h1>
-            <p class="text-white text-base mt-8 mb-4 xl:text-left text-center">Con nuestras notificaciones automáticas, ¡nunca volverás a  <br>
+            <h1 class="text-white font-bold text-5xl  xl:text-5xl xl:text-left xl:mt-32">No vuelvas a <br>Perder tus citas</h1>
+            <p class="text-white text-base mt-8 mb-4 xl:text-left ">Con nuestras notificaciones automáticas, ¡nunca volverás a  <br>
               perder una cita! recibirás un recordatoriopara que puedas <br>
               planear con tiempo tus visitas a tu establecimiento preferido. <br>
               Si no te es posible atender a la hora y/o día que habías <br>
@@ -135,12 +141,12 @@
 </section>
 
 <section class="h-full bg-gray-200">
-    <div class="xl:flex xl:ml-4 justify-between xl:mt-0">
+    <div class="xl:flex xl:ml-4 justify-between xl:mt-0 text-center">
             <div class="xl:flex order-last">
                     <img src="resources/images/img-4.jpg" alt="" class="xl:mb-0 mb-8">
             </div>
 
-            <div class="xl:mt-8 xl:ml-0 ml-4 xl:ml-32 xl:mt-40 text-center xl:text-left">
+            <div class="xl:mt-8 xl:ml-0 ml-4 xl:ml-32 xl:mt-40 xl:text-left">
                     <p class="text-2xl font-bold text-gray-400 tracking-widest">COMERCIOS</p>
                     <p class="text-5xl font-bold font-sans text-gray-700">¡Aumenta tus ventas!</p>
                     <p>Sé parte de nuestros socios estratégicos. Únete a <br>
@@ -149,6 +155,173 @@
                     <button class="rounded h-10 w-48 bg-green-300 text-white mt-8 mb-8" id="btn">Leer más</button>
             </div>
         </div>
+</section>
+
+<section class="h-full">
+  <div class="text-center">
+      <h1 class="font-bold text-4xl font-sans pt-8" style="color: #031FC6;">FAQ'S</h1>
+      <p class="text-center text-base font-sans">Guía general del uso de la aplicacion y preguntas frecuentes</p>
+  </div>
+  <div class="flex flex-col xl:flex-row">
+          
+      <div class="mt-8 xl:ml-64 w-11/12 mx-8">
+          <ul id="list" class="v-expansion-panel theme-light">
+              <li>
+                  <div class="flex v-expansion-panel__header">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo">
+                        <span class="font-bold">+ ¿Qué es The Tap App?</span></button>
+                  </div>
+                  <div id="demo" class="collapse" class="card-content v-expansion-panel__body">
+                      <div class="cardss content pb-0 mt-4">
+                          <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">En TapApp somos una empresa dedicada a proporcionar una solución en cuanto 
+                            al flujo de información entre tus clientes y tu <br> establecimiento.</h4></div>
+                      </div>
+                      <div class="cardss content pb-0">
+                          <div class="cardss content pb-0 mt-4">
+                              <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Hoy en día, existe una gran demanda tecnológica de parte de los 
+                                consumidores finales en cuanto a encontrar una solución para agendar <br> 
+                                una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática, y aquí es <br> 
+                                donde TapApp entra en juego.</h4></div>
+                          </div>
+                      </div>
+                      <div class="cardss content pb-0">
+                          <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">TapApp no solamente elimina el problema de interacción entre 
+                            establecimiento-consumidor por medio de una plataforma moderna, la <br> 
+                            cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así tus ingresos, te <br> 
+                            proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde <br> 
+                            a tu negocio.</h4></div>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-2">
+                          <span class="font-bold">+ Como usuario de la app, ¿Puedo re-agendar una cita a la que ya no podre asistir?</span>
+                      </button>
+                          </div>
+                          <div id="demo-2" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">¡Claro! nada más entra a tu menú de reservas generadas, 
+                                    entra a la reserva que quieras modificar y reprograma tu reserva para cuando <br> 
+                                    puedas asistir. Tambien puedes modificarla cuando te llegue la notificación de recordatorio automático, dale click al botón re-agendar <br> 
+                                    y reprograma tu cita.</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-3">
+                          <span class="font-bold">+ Cómo usuario de la app, ¿como me califican?</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-3" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Eres calificado según la cantidad de citas re-agendadas 
+                                    (entre más reprogrames, peor tu calificación), la cantidad de veces que canceles <br> 
+                                    (entre más canceles, peor tu calificación) una cita y tu puntualidad (entre más puntual, mejora tu calificación)</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-4">
+                          <span class="font-bold">+ Como usuario de la app, ¿que tengo que pagar?</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-4" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Absolutamente ¡NADA! la app es gratuita y te la puedes descargar 
+                                    ya sea en la App Store de Apple o Google Play para Android.</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-5">
+                          <span class="font-bold">+ ¿Qué pasa si como usuario de la app tengo una mala calificación?</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-5" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Si tienes una mala calificación, los establecimientos a los que 
+                                    hagas una cita serán automáticamente notificados de tu calificación y ellos <br> 
+                                    podrán elegir si aprobarte o denegarte tu cita.</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-5">
+                          <span class="font-bold">+ Como establecimiento, ¿Cómo me califican?</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-5" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Tus clientes, al finalizar la cita, te calificaran por medio de la 
+                                    app dependiendo de tu servicio, puntualidad, precio, etc.</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-6">
+                          <span class="font-bold">+ Como establecimiento, ¿puedo mejorar mi plan?</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-6" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">¡Claro! Nada más entra a tu dashboard asignado, dale click al botón 
+                                    en la parte superior derecha a la pantalla donde indica el número de <br> 
+                                    días en el que vence tu plan y elige tu nuevo plan.</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-7">
+                          <span class="font-bold">+ Como establecimiento, ¿Qué pasa si llego al límite de citas agendadas? (ver tu plan)</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-7" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Una vez que hayas alcanzado el límite de citas según tu plan, tus 
+                                    clientes no podrán reservar más citas.</h4></div>
+                              </div>
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">En caso de que te actualices a un paquete superior, instantáneamente 
+                                    tendrá acceso a más citas, o puedes esperar hasta que se actualice <br> 
+                                    el recuento de citas. El recuento se actualizará cada 30 días después de que te hayas registrado o 30 días después de haber actualizado a <br> 
+                                    uno de nuestros paquetes.</h4></div>
+                              </div>
+                          </div>
+              </li>
+              <li>
+                  <div class="flex v-expansion-panel__header mt-8 mb-12">
+                      <button type="button" class="mt-1 ml-2 montserrat text-xl" data-toggle="collapse" data-target="#demo-8">
+                          <span class="font-bold">+ Como establecimiento, ¿a que reporteria tengo acceso?</span>                       
+                      </button>
+                          </div>
+                          <div id="demo-8" class="collapse" class="card-content v-expansion-panel__body">
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">Solamente al contar con un plan premium podrás tener acceso a una
+                                     amplia gama de reporteria, necesaria para poder manejar <br> 
+                                     adecuadamente tu negocio, desarrollandolo de manera continua y certera.</h4></div>
+                              </div>
+                              <div class="cardss content pb-0 mt-4">
+                                  <div class="mb-4"><h4 class="ml-12 text-gray-800 text-base mb-2">La reporteria en el plan premium incluye desde reportes de venta, 
+                                    reporteria de reservas, de tus clientes y tus empleados, así como la <br> 
+                                    efectividad de tus promociones y la distribución de tu tiempo.</h4></div>
+                              </div>
+                          </div>
+              </li>
+
+          </ul>
+
+      </div>
+      
+  </div>
+
+
 </section>
 
 <section class="h-full bg-gray-300">
@@ -163,19 +336,19 @@
                         <label class="block tracking-wide text-indigo-700 text-base font-bold mb-2">
                           Nombre
                         </label>
-                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Nombre">
+                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Nombre" required>
                       </div>
                       <div class="w-full md:w-1/2 px-3">
                         <label class="block tracking-wide text-indigo-700 text-base font-bold mb-2">
                           Mensaje
                         </label>
-                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Escribe tu mensaje">
+                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="Escribe tu mensaje" required>
                       </div>
                       <div class="w-full md:w-1/2 px-3">
                         <label class="block tracking-wide text-indigo-700 text-base font-bold mb-2">
                           Email
                         </label>
-                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="example@gmail.com">
+                        <input class="appearance-none block w-full xl:w-5/6 text-gray-700 border-b border-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white"  type="text" placeholder="example@gmail.com" required>
                       </div>
                       <div>
                         <button class="rounded h-10 w-48 bg-green-300 text-white mt-16 ml-4" id="btn-form">Enviar mensaje</button>
@@ -186,19 +359,38 @@
     </div>
 </section>
 
-<footer class="flex p-2 bg-black justify-around flex-wrap">
-    <div class="flex justify-around flex-wrap">
-        <img src="resources/images/logo.svg" class="h-12 logo-white transparent ">
-    </div>
-
-    <div class="flex items-center">
-            <img src="resources/images/facebook.png" alt="">
-            <img src="resources/images/instagram.png" alt="" class="mx-8">
-            <img src="resources/images/twitter.png" alt="">
-    </div>
+<footer class="h-full p-2 bg-black">
+  <div class="xl:flex flex-row xl:justify-around xl:ml-0 ml-20">
+      <div class="items-left mb-4">
+          <img src="resources/images/logo.svg" class="h-12 logo-white transparent mr-64">
+      </div>
     
+      <div class="flex items-center ml-12 mb-4">
+              <img src="resources/images/facebook.png" alt="">
+              <img src="resources/images/instagram.png" alt="" class="mx-8">
+              <img src="resources/images/twitter.png" alt="">
+      </div>
+  </div>
 
+  <div class="xl:flex flex-row justify-around xl:ml-0 ml-16">
+    <p class="text-gray-500">© Tap. Todos los derechos reservados, 2019</p> 
+    <p class="text-gray-500">Terminos y Condiciones  |  Políticas y Privacidad</p>
+
+  </div>
 </footer>
 
 </body>
+
+<script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+        }
+        
+        $(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+
+
+	</script>
 </html>

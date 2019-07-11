@@ -35,30 +35,30 @@
 
 <section class="h-12">
       <div class="h-24 flex justify-between">
-              <nav class="flex items-center justify-between flex-wrap fixed w-full z-10" id="nav">
-                  <a href="index.html">
-                      <img alt="Logo" src="resources/images/logo.svg">
-                  </a>
-                  <div class="flex items-center flex-shrink-0 text-white mr-6">
-                  </div>
-          
-                  <div class="block lg:hidden">
-                      <button id="nav-toggle" class="mr-4 mt-4 h-12 w-12">
-                        <img src="resources/images/menu.png" alt="">
-                      </button>
-                  </div>
-          
-                  <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
-                      <ul class="list-reset lg:flex justify-end flex-1">
-                          <li class="mr-3">
-                              <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="index.html" id="items">Home</a>
-                          </li>
-                          <li class="mr-3">
-                              <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Comercio</a>
-                          </li>
-                      </ul>
-                  </div>
-              </nav>
+          <nav class="flex items-center justify-between flex-wrap fixed w-full z-10" id="nav">
+              <a href="index.html">
+                  <img alt="Logo" src="resources/images/logo.svg">
+              </a>
+              <div class="flex items-center flex-shrink-0 text-white mr-6">
+              </div>
+      
+              <div class="block lg:hidden">
+                  <button id="nav-toggle" class="mr-4 mt-4 h-12 w-12">
+                    <img src="resources/images/menu.png" alt="">
+                  </button>
+              </div>
+      
+              <div class="w-full flex-grow lg:flex lg:w-auto hidden pt-10 lg:pt-0" id="nav-content">
+                  <ul class="list-reset lg:flex justify-end flex-1 xl:h-auto h-screen">
+                      <li class="mr-3">
+                          <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="#" id="items">Home</a>
+                      </li>
+                      <li class="mr-3">
+                          <a class="hover:no-underline inline-block text-white font-bold pt-2 px-2" href="comercio.html" id="items">Comercio</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
       </div>
 </section>
 
@@ -309,19 +309,37 @@
     </div>
 </section>
 
-<footer class="flex p-2 bg-black justify-around flex-wrap">
-    <div class="flex justify-around flex-wrap">
-        <img src="resources/images/logo.svg" class="h-12 logo-white transparent ">
+<footer class="h-full p-2 bg-black">
+    <div class="xl:flex flex-row xl:justify-around xl:ml-0 ml-20">
+        <div class="items-left mb-4">
+            <img src="resources/images/logo.svg" class="h-12 logo-white transparent mr-64">
+        </div>
+      
+        <div class="flex items-center ml-12 mb-4">
+                <img src="resources/images/facebook.png" alt="">
+                <img src="resources/images/instagram.png" alt="" class="mx-8">
+                <img src="resources/images/twitter.png" alt="">
+        </div>
     </div>
-
-    <div class="flex items-center">
-            <img src="resources/images/facebook.png" alt="">
-            <img src="resources/images/instagram.png" alt="" class="mx-8">
-            <img src="resources/images/twitter.png" alt="">
+  
+    <div class="xl:flex flex-row justify-around xl:ml-0 ml-16">
+      <p class="text-gray-500">© Tap. Todos los derechos reservados, 2019</p> 
+      <p class="text-gray-500">Terminos y Condiciones  |  Políticas y Privacidad</p>
+  
     </div>
-    
-
-</footer>
+  </footer>
 
 </body>
+<script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+        }
+        
+        $(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+
+
+	</script>
 </html>
